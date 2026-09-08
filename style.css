@@ -12,8 +12,8 @@ body {
     align-items: center;
 }
 
-/* Estilo do formulário de cadastro */
-.formulario-container {
+/* Estilo do formulário de cadastro e busca */
+.formulario-container, .busca-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -23,7 +23,7 @@ body {
     margin-bottom: 30px;
 }
 
-.formulario-container h2 {
+.formulario-container h2, .busca-container h2 {
     margin-top: 0;
 }
 
@@ -46,6 +46,28 @@ button {
 
 button:hover {
     background-color: #218838;
+}
+
+/* Botões da seção de busca */
+.botoes-busca {
+    display: flex;
+    gap: 10px;
+}
+
+#btn-buscar {
+    background-color: #007bff;
+}
+
+#btn-buscar:hover {
+    background-color: #0056b3;
+}
+
+#btn-listar {
+    background-color: #6c757d;
+}
+
+#btn-listar:hover {
+    background-color: #5a6268;
 }
 
 /* Estilo da lista de produtos */
@@ -72,4 +94,19 @@ button:hover {
     color: #28a745;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+/* Botão Excluir dentro do card */
+.btn-excluir {
+    background-color: #dc3545;
+    color: white;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+
+.btn-excluir:hover {
+    background-color: #c82333;
 }
