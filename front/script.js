@@ -1,5 +1,5 @@
-// A URL da nossa API
-const url = "http://localhost:3000/produtos";
+// A API é entregue pelo mesmo servidor do front-end.
+const url = "/api/produtos";
 
 /**
  * Função auxiliar para renderizar os produtos na tela
